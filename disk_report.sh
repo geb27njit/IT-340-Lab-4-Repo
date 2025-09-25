@@ -1,4 +1,5 @@
 #!/bin/bash
-echo "Disk Report - $(date)" >> ~/disk_usage.log
-df -h >> ~/disk_usage.log
-echo "------------------------" >> ~/disk_usage.log
+
+echo "Disk Report - $(date)" >> ~/Lab_4/disk_usage.log
+df -h >> ~/Lab_4/disk_usage.log
+echo "------------------------" >> ~/Lab_4/disk_usage.log
